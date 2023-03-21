@@ -1,0 +1,12 @@
+import os
+
+DATASET_FOLDER = f'dataset'
+TRAIN_DIRECTORY = os.path.join(DATASET_FOLDER, "train")
+TEST_DIRECTORY = os.path.join(DATASET_FOLDER, "test")
+
+TRAIN_SIZE = 0.90
+VAL_SIZE = 0.10
+
+BATCH_SIZE = 16
+NUM_OF_EPOCHS = 5
+LR = 1e-1
